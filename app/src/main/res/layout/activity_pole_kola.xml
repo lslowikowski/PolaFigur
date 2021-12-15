@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PoleKolaActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Pole koła"
+        android:textSize="38sp"
+        android:background="#00AA00"
+        android:textColor="#FAFAFA"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Promień" />
+
+    <EditText
+        android:id="@+id/promien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wprowadź promień"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Wylicz pole koła"
+        android:onClick="wyliczPoleKola" />
+
+</LinearLayout>

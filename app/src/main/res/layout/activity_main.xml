@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Pola figur"
+        android:textSize="38sp"
+        android:background="#00AA00"
+        android:textColor="#FAFAFA"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Oblicz pole koła"
+        android:textSize="18sp"
+        android:onClick="obliczPoleKola"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Oblicz pole kwadratu"
+        android:textSize="18sp"
+        android:onClick="obliczPoleKwadratu"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Oblicz pole prostokąta"
+        android:textSize="18sp"
+        android:onClick="obliczPoleProstokata"
+        android:layout_marginTop="5dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Oblicz pole trójkąta"
+        android:textSize="18sp"
+        android:onClick="obliczPoleTojkata"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/wynik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Tu pojawi się wynik obliczeń" />
+
+</LinearLayout>

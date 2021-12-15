@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PoleTrojkataActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Pole trójkąta"
+        android:textSize="38sp"
+        android:background="#00AA00"
+        android:textColor="#FAFAFA"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Podstawa" />
+    <EditText
+        android:id="@+id/podstawa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wprowadź podstawę trójkąta"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wysokość" />
+    <EditText
+        android:id="@+id/wysokosc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wprowadź wysokość trójkąta"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Wylicz pole trójkąta"
+        android:onClick="wyliczPoleTrojkata" />
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PoleProstokataActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Pole prostokąta"
+        android:textSize="38sp"
+        android:background="#00AA00"
+        android:textColor="#FAFAFA"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bok A" />
+    <EditText
+        android:id="@+id/bokA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wprowadź bok A prostokąta"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bok B" />
+    <EditText
+        android:id="@+id/bokB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wprowadź bok B prostokąta"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Wylicz pole prostokąta"
+        android:onClick="wyliczPoleProstokata" />
+
+</LinearLayout>
